@@ -57,16 +57,21 @@ https://thedream.biz.id/live/esceteve.m3u8
 #EXTINF:0 tvg-logo="https://i.ibb.co/3FH3W8G/Indosiar-hometv.png" group-title="----LOKAL-1",10 Indosiar
 #EXTVLCOPT:http-referrer=https://www.dens.tv/
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/109.0.0.0 Safari/537.36
-http://op-group1-swiftservesd-1.dens.tv/s/s04/index.m3u8?app_type=web&userid=lite&chname=Indosiar
-
+#http://op-group1-swiftservesd-1.dens.tv/s/s04/index.m3u8?app_type=web&userid=lite&chname=Indosiar
+#KODIPROP:inputstreamaddon=inputstream.adaptive
+#KODIPROP:inputstream.adaptive.manifest_type=dash
+#KODIPROP:inputstream.adaptive.license_type=org.w3.clearkey
+#KODIPROP:inputstream.adaptive.license_key=5eaddccd893a47ac8b65f9b31963a3ae:881afa67ea57b41c1822d745d67559e6
+https://atemecdnbalancer-voe.sysln.id/live/eds/IndosiarHD/mpd/IndosiarHD.mpd
+  
 #EXTINF:-1 tvg-id="" tvg-name="INDOSIAR" tvg-logo="https://i.ibb.co/3FH3W8G/Indosiar-hometv.png" group-title="----LOKAL-2",10.INDOSIAR
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/109.0.0.0 Safari/537.36
 #EXTVLCOPT:http-referrer=https://thedream.biz.id/play.php
-https://thedream.biz.id/live/endosiar.m3u8
-#KODIPROP:inputstream.adaptive.license_type=com.widevine.alpha
-#KODIPROP:inputstream.adaptive.license_key=https://mrpw.ptmnc01.verspective.net/?deviceId=ZjdiMDljNTItMmYzZC0zNDcyLTllYmItY2QxNDdiYzlhZWY0
-#EXTVLCOPT:http-referrer=https://visionplus.id
-https://melon-live-cdn.mncnow.id/live/eds/Sportstar4/sa_dash_vmx/Sportstar4.mpd
+#https://thedream.biz.id/live/endosiar.m3u8
+#EXTVLCOPT:http-user-agent=OTT Navigator/1.6.5.5 (Linux;Android 14) ExoPlayerLib/2.13.2
+https://basitv2.pages.dev/liveindos1.m3u8
+#EXTVLCOPT:http-user-agent=OTT Navigator/1.6.5.5 (Linux;Android 14) ExoPlayerLib/2.13.2
+http://fastserver.my.id:8080/play/p7M2Yp6F8FBz249PUQPRzgSuY_L-VXt55vYxZiUwbAk/ts
   
 #KODIPROP:inputstream.adaptive.license_type=com.widevine.alpha 
 #KODIPROP:inputstream.adaptive.license_key=https://mrpw.ptmnc01.verspective.net/?deviceId=MTI3MTQzMjItYjdkNi0zNGVkLThkZjEtNDVkOWFkNDUwZDJh 
@@ -468,6 +473,7 @@ https://edge.medcom.id/live-edge/smil:magna.smil/chunklist_w1202388718_b878000_s
 #https://melon-live-cdn.mncnow.id/live/eds/BaliTV/sa_dash_vmx/BaliTV.mpd
 #http://kuchini.site:8080/devtv/5af3eeb538/197962
 https://cdn-telkomsel-01.akamaized.net/Content/HLS/Live/channel(8e867ae0-b2c0-4968-9f60-a11aee8c0987)/index.m3u8
+
 
 ========
 #EXTINF:-1 tvg-logo="https://i.postimg.cc/pdXZYKhf/20221026-010322.png" group-title="----Kids",Davinci Kids
