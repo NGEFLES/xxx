@@ -1,5 +1,6 @@
 <noscript>
 
+
   
 
 #EXTINF:0 tvg-logo="https://upload.wikimedia.org/wikipedia/commons/6/6a/SoccerChannel2020.png" group-title="----LOKAL-1",8 soccer chanel
@@ -14,9 +15,9 @@ https://d1abp075u76pbq.cloudfront.net/live/eds/soccerchannel-test/sa_dash_vmx/so
 https://d1abp075u76pbq.cloudfront.net/live/eds/MNCSports-HD/sa_dash_vmx/MNCSports-HD.mpd|Referer=https://www.visionplus.id/
 
 #EXTINF:0 tvg-logo="https://blog.visionplus.id/wp-content/uploads/2023/07/jadwal-program-sportstar.jpg" group-title="----LOKAL-2",8 Sportsstar 2
-#KODIPROP:inputstream.adaptive.license_type=clearkey
-#KODIPROP:inputstream.adaptive.license_key=45fec91ce1f19b6b1f31d69dcfaaf6cd:843e228ab109e9aa6c4822ee4ad05d7d
-https://d1abp075u76pbq.cloudfront.net/live/eds/MNCSports2-HD/sa_dash_vmx/MNCSports2-HD.mpd|Referer=https://www.visionplus.id/
+#KODIPROP:inputstream.adaptive.license_type=com.widevine.alpha
+#KODIPROP:inputstream.adaptive.license_key=https://dusk.biz.id/rplus/drm.php?id=113
+https://dusk.biz.id/rplus/index.mpd?id=113
   
 #EXTINF:0 tvg-logo="https://blog.visionplus.id/wp-content/uploads/2023/07/jadwal-program-sportstar.jpg" group-title="----LOKAL-2",70 Sportsstar 4
 #KODIPROP:inputstream.adaptive.license_type=clearkey
@@ -38,8 +39,16 @@ https://atemecdnbalancer-voe.sysln.id/live/eds/SCTVHD/mpd/SCTVHD.mpd
 
 #EXTINF:-1 tvg-id="" tvg-name="SCTV" tvg-logo="https://i.ibb.co/BzXmZL7/Sctv-hometv.png" group-title="----LOKAL-2",2 SCTV
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/109.0.0.0 Safari/537.36
+#KODIPROP:inputstreamaddon=inputstream.adaptive
+#KODIPROP:inputstream.adaptive.manifest_type=dash
+#KODIPROP:inputstream.adaptive.license_type=com.widevine.alpha
+#KODIPROP:inputstream.adaptive.license_key=http://gatotkaca007.serv00.net/red/play.php?id=204&type=drm
+http://gatotkaca007.serv00.net/red/play.mpd?id=204&type=dash
+
+#EXTINF:-1 tvg-id="" tvg-name="SCTV" tvg-logo="https://i.ibb.co/BzXmZL7/Sctv-hometv.png" group-title="----LOKAL-2",2 SCTV
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/109.0.0.0 Safari/537.36
 #EXTVLCOPT:http-referrer=https://thedream.biz.id/play.php
-https://thedream.biz.id/live/esceteve.m3u8
+#https://thedream.biz.id/live/esceteve.m3u8
 
 #EXTINF:0 tvg-logo="https://i.ibb.co/3FH3W8G/Indosiar-hometv.png" group-title="----LOKAL-1",10 Indosiar
 #EXTVLCOPT:http-referrer=https://www.dens.tv/
@@ -53,7 +62,12 @@ https://atemecdnbalancer-voe.sysln.id/live/eds/IndosiarHD/mpd/IndosiarHD.mpd
   
 #EXTINF:-1 tvg-id="" tvg-name="INDOSIAR" tvg-logo="https://i.ibb.co/3FH3W8G/Indosiar-hometv.png" group-title="----LOKAL-2",10.INDOSIAR
 http://ktpremium.xyz:2095/live/yv2268/22681081/73617.ts
-http://108.181.132.217:8070/AmirBilali/76448035/162138
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/109.0.0.0 Safari/537.36
+#KODIPROP:inputstreamaddon=inputstream.adaptive
+#KODIPROP:inputstream.adaptive.manifest_type=dash
+#KODIPROP:inputstream.adaptive.license_type=com.widevine.alpha
+#KODIPROP:inputstream.adaptive.license_key=http://gatotkaca007.serv00.net/red/play.php?id=205&type=drm
+http://gatotkaca007.serv00.net/red/play.mpd?id=205&type=dash
 
   
 #KODIPROP:inputstream.adaptive.license_type=clearkey 
@@ -98,10 +112,16 @@ https://d1abp075u76pbq.cloudfront.net/live/eds/KompasTV/sa_dash_vmx/KompasTV.mpd
 http://op-group1-swiftservehd-1.dens.tv/h/h234/02.m3u8
 
 #EXTINF:0 tvg-logo="https://i.ibb.co/DKvTJgx/Tvone-hometv.png" group-title="----LOKAL-1",5 TVONE
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36
+#KODIPROP:inputstream.adaptive.license_type=clearkey
+#KODIPROP:inputstream.adaptive.license_key=b6486d00c9d842d88ba1660deec8becc:67ed72016590f2138d9fc10b807708b2
+https://atemecdnbalancer-voe.sysln.id/live/eds/TvOne/mpd/TvOne.mpd
+
+#EXTINF:0 tvg-logo="https://i.ibb.co/DKvTJgx/Tvone-hometv.png" group-title="----LOKAL-1",5 TVONE
 #KODIPROP:inputstream.adaptive.license_type=clearkey
 #KODIPROP:inputstream.adaptive.license_key=90204c05545f95a262bb0d3ac45de870:0e80f2a19fdf8da476bf695cd9570bb2
-https://d1abp075u76pbq.cloudfront.net/live/eds/TVOne/sa_dash_vmx/TVOne.mpd|Referer=https://www.visionplus.id/
-
+#https://d1abp075u76pbq.cloudfront.net/live/eds/TVOne/sa_dash_vmx/TVOne.mpd|Referer=https://www.visionplus.id/ 
+  
 #KODIPROP:inputstream.adaptive.license_type=clearkey
 #KODIPROP:inputstream.adaptive.license_key=https://cubmu.ceriatv.workers.dev/
 #EXTINF:-1 tvg-id="" tvg-name="TV ONE" tvg-logo="https://i.ibb.co/DKvTJgx/Tvone-hometv.png" group-title="----LOKAL-2",5 TV ONE
@@ -5495,7 +5515,6 @@ https://stream.hownetwork.xyz/xxx/showbiz-kids-2020-webdl_X_d35f43a0/21/480.m3u8
 
 #EXTINF:-1 tvg-logo="#https://s1.lk21static.xyz/wp-content/uploads/2024/04/film-15-minutes-of-shame-2021-lk21-d21.jpg.webp" group-title="LAST UPDATE DOCUMENTARY 2024",15 Minutes of Shame (2021)
 https://stream.hownetwork.xyz/xxx/15-minutes-of-shame-2021-webdl_X_91d42ef0/21/480.m3u8
-
 
 
 
